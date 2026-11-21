@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 // Checks every registry role: the file exists, has a "# Title", a "## What you own" section with glob bullets or
 // "No artifacts", a "## Boundaries" section, and no front matter. Run: node scripts/validate.mjs [root]
-// BMAD overrides exist. Run: node scripts/validate.mjs [root]
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 const ROOT = process.argv[2] || join(import.meta.dirname, "..");
