@@ -41,6 +41,11 @@
       "name": "monitor",
       "file": "agents/monitor.md",
       "description": "Wakes on an ALERT: triages read-only, delegates runbook fixes to focus agents, escalates the rest as a work order."
+    },
+    {
+      "name": "support",
+      "file": "agents/support.md",
+      "description": "Customer issues for support engineers: reproduce, check known issues, investigate read-only, file bug tickets, draft replies (sent only on approval)."
     }
   ]
 }
