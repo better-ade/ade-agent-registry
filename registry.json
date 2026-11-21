@@ -26,6 +26,11 @@
       "name": "security-reviewer",
       "file": "agents/security-reviewer.md",
       "description": "Adversarial security review for high-risk changes only; read-only."
+    },
+    {
+      "name": "qa",
+      "file": "agents/qa.md",
+      "description": "Tests user-facing changes as a user and writes the missing end-to-end tests; never product code."
     }
   ]
 }
