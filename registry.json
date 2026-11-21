@@ -46,6 +46,11 @@
       "name": "support",
       "file": "agents/support.md",
       "description": "Customer issues for support engineers: reproduce, check known issues, investigate read-only, file bug tickets, draft replies (sent only on approval)."
+    },
+    {
+      "name": "forward-deployed",
+      "file": "agents/forward-deployed.md",
+      "description": "Delivers inside a customer's environment: their constraints and approved providers first, integrations, handover; one customer per folder."
     }
   ]
 }
