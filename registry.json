@@ -36,6 +36,11 @@
       "name": "analyst",
       "file": "agents/analyst.md",
       "description": "Researches the web and browser-based tools with the browser plugin; read-only by default, cites every source."
+    },
+    {
+      "name": "monitor",
+      "file": "agents/monitor.md",
+      "description": "Wakes on an ALERT: triages read-only, delegates runbook fixes to focus agents, escalates the rest as a work order."
     }
   ]
 }
