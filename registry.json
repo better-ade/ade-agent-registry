@@ -2,9 +2,30 @@
   "format": 1,
   "about": "Specialist roles. A project loads one only when a task needs it; the core roles live in ade-method.",
   "roles": [
-    { "name": "frontend", "file": "agents/frontend.md", "description": "UI work: components, states, accessibility." },
-    { "name": "backend",  "file": "agents/backend.md",  "description": "APIs, data and migrations, under the recorded contracts." },
-    { "name": "devops",   "file": "agents/devops.md",   "description": "CI, environments, releases and rollback." },
-    { "name": "sysadmin", "file": "agents/sysadmin.md", "description": "Hosts, access, backups and runbooks; live changes only on the owner's word." }
+    {
+      "name": "frontend",
+      "file": "agents/frontend.md",
+      "description": "UI work: components, states, accessibility."
+    },
+    {
+      "name": "backend",
+      "file": "agents/backend.md",
+      "description": "APIs, data and migrations, under the recorded contracts."
+    },
+    {
+      "name": "devops",
+      "file": "agents/devops.md",
+      "description": "CI, environments, releases and rollback."
+    },
+    {
+      "name": "sysadmin",
+      "file": "agents/sysadmin.md",
+      "description": "Hosts, access, backups and runbooks; live changes only on the owner's word."
+    },
+    {
+      "name": "security-reviewer",
+      "file": "agents/security-reviewer.md",
+      "description": "Adversarial security review for high-risk changes only; read-only."
+    }
   ]
 }
